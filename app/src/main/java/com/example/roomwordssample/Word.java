@@ -14,11 +14,11 @@ public class Word {
     private String mWord;
 
 
-    private Word(@NonNull String word){
+    public Word(@NonNull String word){
         this.mWord = word;
     }
 
-    public String getmWord() {
+    public String getWord() {
         return mWord;
     }
 }
